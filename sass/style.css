@@ -570,43 +570,43 @@ h5 {
 }
 
 .ico_play {
-  background-image: url("../assets/img/icons/play.svg");
+  background-image: url("../assets/icons/play.svg");
   width: 18px;
   height: 19px;
 }
 
 .ico_arrow {
-  background-image: url("../assets/img/icons/arrow.svg");
+  background-image: url("../assets/icons/arrow.svg");
   width: 12px;
   height: 17px;
 }
 
 .ico_snake {
-  background-image: url("../assets/img/icons/snake.svg");
+  background-image: url("../assets/icons/snake.svg");
   width: 18px;
   height: 14px;
 }
 
 .ico_heart {
-  background-image: url("../assets/img/icons/heart.svg");
+  background-image: url("../assets/icons/heart.svg");
   width: 17px;
   height: 15px;
 }
 
 .ico_clock {
-  background-image: url("../assets/img/icons/clock.svg");
+  background-image: url("../assets/icons/clock.svg");
   width: 15px;
   height: 17px;
 }
 
 .ico_phone {
-  background-image: url("../assets/img/icons/phone.svg");
+  background-image: url("../assets/icons/phone.svg");
   width: 13px;
   height: 13px;
 }
 
 .ico_letter {
-  background-image: url("../assets/img/icons/letter.svg");
+  background-image: url("../assets/icons/letter.svg");
   width: 11px;
   height: 8px;
 }
@@ -633,6 +633,38 @@ h5 {
 }
 .header__buttons > .button:first-child {
   margin-left: 0;
+}
+
+.layout-2-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-2-column > * {
+  flex-basis: 48%;
+}
+
+.layout-3-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-3-column > * {
+  flex-basis: 30%;
+}
+.layout-3-column:after {
+  content: "";
+  width: 30%;
+  display: block;
+}
+
+.layout-4-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.layout-4-column > * {
+  flex-basis: 21%;
 }
 
 .contact-us {
@@ -683,6 +715,34 @@ h5 {
 }
 .navigation__link:hover {
   color: #FF9900;
+}
+
+.tools__inner {
+  padding-bottom: 90px;
+  background-image: url("../assets/backgrounds/tools-bg.svg");
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.tools__title {
+  max-width: 462px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.tools__button {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.tool__icon {
+  margin-bottom: 30px;
+}
+
+.tool__title {
+  margin: 0 0 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

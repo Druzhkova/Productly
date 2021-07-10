@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Druzhkova/Productly/issues"
   },
-  "homepage": "https://github.com/Druzhkova/Productly#readme"
+  "homepage": "https://github.com/Druzhkova/Productly#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }
